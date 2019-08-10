@@ -1,0 +1,450 @@
+body
+{
+    font-family:"-apple-system","BlinkMacSystemFont","Roboto","Helvetica Neue","MIcrosoft YaHei",sans-serif !important;
+    font-size:12px;
+}
+ button,body, dd, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, hr, input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #999999;
+}
+.app-header{
+    height: 40px;
+    background-color: #f8f8f8;
+    padding: 0 10px 0 80px;
+}
+.area{
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+}
+.header-city{
+    padding-right: 2px;
+    width: 30px;
+    float: left;
+}
+.header-select-city{
+    border: 1px #e5e5e5 solid;
+    height: 18px;
+    width: 50px;
+    float: left;
+    margin-right:5px;
+}
+.header-select-city a:hover{
+    color: #fe8c00;
+}
+.header-top-city{
+    color: #999999;
+    width: 180px;
+    float: left;
+}
+.header-top-city a:hover{
+    color: #fe8c00;
+}
+.login{
+    margin-top: 10px;
+    width: 90px;
+    float: left;
+}
+.header-go-login{
+    color: #fe8c00;
+    width: 60px;
+    float: left;
+}
+.header-go-login a{
+    color: #fe8c00;
+}
+.header-go-login a:hover{
+    color: #fe8c00;
+}
+.header-go-register{
+    width: 30px;
+    float: left;
+}
+.header-go-register a{
+    color: #999999;
+}
+.header-go-register a:hover{
+    color: #fe8c00;
+}
+.map{
+    width: 360px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.map ul{
+    list-style: none;
+}
+.map ul li{
+    float: left;
+    margin-right: 20px;
+    color: #999999;
+}
+.map ul li a{
+    color: #999999;
+}
+.map ul li a:hover{
+    color: #fe8c00;
+}
+.app-nav{
+    height: 180px;
+    padding: 0 10px 0 80px;
+}
+.nav-logo{
+    width: 195px;
+    float:left;
+    margin-top: 30px;
+}
+.nav-search{
+    float: left;
+    margin-top: 30px;
+    margin-left: 165px;
+}
+.nav-search input{
+    border: 1px #e5e5e5 solid;
+    border-bottom-left-radius: 3px;
+    border-top-left-radius: 3px;
+    height: 40px;
+    width: 469px;
+    outline: none;
+}
+.nav-search button{
+    border: 1px #ffc300 solid;
+    background-color: #ffc300;
+    width: 80px;
+    height: 42px;
+    margin-left: -6px;
+    cursor: pointer;
+    border-bottom-right-radius: 3px;
+    border-top-right-radius: 3px;
+    outline: none;
+    position: relative;
+    top: 1px;
+}
+.nav-hot-search{
+    clear: both;
+    width: 500px;
+    height: 20px;
+    color: #999999;
+    /* transform 使用先需要绝对定位或者相对定位 */
+    position: relative;
+    left:50%;
+    transform:translate(-50%,-50%);
+    -webkit-transform: translateX(-50%);/* 支持谷歌 */
+    -ms-transform: translateX(-50%);/* 支持IE 9 */
+}
+.nav-hot-search ul{
+    list-style: none;
+}
+.nav-hot-search ul li{
+    float: left;
+    padding-right: 10px;
+}
+.nav-hot-search ul li a:hover{
+    color: #fe8c00;
+}
+.nav-menu{
+    width: 630px;
+    height: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+}
+.nav-menu ul{
+    list-style: none;
+}
+.nav-menu ul li{
+    float: left;
+    padding-right: 30px;
+}
+.nav-menu ul li a{
+    color: #000000;
+}
+.nav-menu ul li a:hover{
+    color: #fe8c00;
+}
+.app-content{
+    background-color: #F8F8F8;
+}
+.content-article{
+    margin-left: 80px;
+    clear: both;
+}
+.content-left-menu {
+    border: 1px #e5e5e5 solid;
+    background-color: #ffffff;
+    width: 18%;
+    height: 470px;
+    float: left;
+    margin-top: -50px;
+}
+.content-left-menu p{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+}
+.content-left-menu ul{
+    font-size: 14px;
+    line-height: 30px;
+    padding-top: 20px;
+    padding-left: 18px;
+    list-style: none;
+}
+.content-left-menu ul li a:hover{
+    color: #fe8c00;
+}
+.content-left-menu ul li .li-bg{
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/sprite.png");
+}
+.content-left-menu ul li .li-bg1{
+    float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+    width: 15px;
+    height: 15px;
+    background-image: url("../img/sprite.png");
+    background-position: 0 -25px;
+}
+.content-middle-list{
+    width: 58%;
+    height: 470px;
+    float: left;
+}
+
+.middle-list-scroll-div{
+    width: 78%;
+    float: left;
+}
+
+.middle-list-scroll-img{
+    width: 550px;
+    height: 240px;
+    margin: 10px 10px;
+}
+.middle-list-scroll-bottom-img{
+    width: 550px;
+    height: 240px;
+    margin: 0 10px;
+    float: left;
+}
+.middle-list-scroll-bottom-img span{
+    padding-right: 5px;
+}
+.middle-list-img{
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+    margin-left: -3px;
+}
+.middle-list-img div{
+    padding-bottom: 7px;
+}
+.content-right-user{
+    padding: 10px 0 10px 0;
+    float: left;
+    width: 20%;
+    height: 450px;
+}
+.user-box{
+    border: 1px #e5e5e5 solid;
+    background-color: #ffffff;
+    width: 227px;
+    height: 238px;
+
+}
+.avatar{
+    border: 4px #e5e5e5 solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+}
+.avatar img{
+    border-radius: 30px;
+    width: 60px;
+    height: 60px;
+}
+.login-button{
+    width: 115px;
+}
+.login-button button{
+    border: 1px #e8e8e8 solid;
+    background-color: #ffffff;
+    width: 120px;
+    height: 42px;
+    cursor: pointer;
+    border-radius: 30px;
+    outline: none;
+    margin-top: 10px;
+}
+.transform{
+    position: relative;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.scan-img{
+    border: 1px #e5e5e5 solid;
+    background-color: #ffffff;
+    margin-top: 10px;
+    width: 227px;
+    height: 160px;
+}
+.item-one{
+    border: 1px #e5e5e5 solid;
+    background-color: #ffffff;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 390px;
+    width: 94%;
+    margin-bottom: 40px;
+}
+.item-nav{
+    background-color: #c2b08e;
+    color: #f9fff4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45px;
+}
+.item-nav-two{
+    background-color: #fe6648;
+    color: #f9fff4;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 45px;
+}
+.item-nav a{
+    color: #ffffff;
+}
+.item-nav a:hover{
+    color: #fe8c00;
+}
+.item-nav ul{
+    list-style: none;
+    margin-left: 20px;
+}
+.item-nav ul li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.item-nav ul li:first-child {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.item-nav-two a{
+    color: #ffffff;
+}
+.item-nav-two a:hover{
+    color: #fe8c00;
+}
+.item-nav-two ul{
+    list-style: none;
+    margin-left: 20px;
+}
+.item-nav-two ul li{
+    float: left;
+    margin-right: 30px;
+    margin-top: 15px;
+}
+.item-nav-two ul li:first-child {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.item-introducing{
+    width: 368px;
+    height: 300px;
+    padding: 10px 10px;
+    margin-left: 7px;
+    float: left;
+    cursor: pointer;
+}
+.item-introducing:hover{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+.item-introducing img{
+    border-radius: 14px;
+}
+.item-title{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.item-sub-title{
+    color: #999999;
+    margin-top: 10px;
+}
+.item-price-area {
+    margin-top: 10px;
+}
+.item-price-area span:first-child{
+    color: #d1a94d;
+    font-size: 20px;
+}
+.item-price-area span:nth-of-type(2){
+    color: #999999;
+}
+.item-price-area span:nth-of-type(3){
+    color: #999999;
+    float: right;
+}
+.web-map{
+    border: 1px #e5e5e5 solid;
+    border-radius: 3px;
+    width: 94%;
+    height: 240px;
+}
+.web-map-title{
+    font-size: 20px;
+    margin: 10px 15px;
+}
+.web-map-list{
+    margin-left: 20px;
+    margin-bottom: 70px;
+    clear: both;
+}
+.web-map-list ul{
+    list-style: none;
+}
+.web-map-list ul li{
+    float: left;
+    margin-right: 80px;
+    margin-top: 10px;
+}
+.web-map-list ul li a:hover{
+    color: #fe8c00;
+}
+.app-footer{
+    height: 40px;
+    background-color: #f8f8f8;
+    padding: 0 10px 0 80px;
+    height: 100px;
+}
+.hr{
+    border-bottom: 1px #e5e5e5 solid;
+    width: 95%;
+    height: 30px;
+}
+.footer{
+    height: 50px;
+    color: #999999;
+    padding-top: 20px;
+}
+.footer .copy{
+    padding-bottom: 10px;
+}
