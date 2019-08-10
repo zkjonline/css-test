@@ -12,7 +12,7 @@ css练习
 > 运用到了 css 圆角 border-radius
 
 
-> 运用到了 css outline: none;
+> 运用到了 css outline: none; 去除input点击出现的篮框
 
 
 > 运用到了 css 结构伪类选择器 :first-child  :nth-of-type(n)
